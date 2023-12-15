@@ -1,5 +1,5 @@
 # UnregisteredUserVerification
-# UnregisteredUserVerification
+
 
 Case Study: Unregistered user verification 
 
