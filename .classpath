@@ -33,7 +33,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng_7.8.0.r202306071539.jar" sourcepath="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng.source_7.8.0.r202306071539.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
