@@ -32,12 +32,12 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng_7.8.0.r202306071539.jar" sourcepath="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng.source_7.8.0.r202306071539.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng_7.8.0.r202306071539.jar" sourcepath="F:/SOFTWARES/sts-4.19.1.RELEASE/plugins/org.testng.source_7.8.0.r202306071539.jar"/>
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -47,16 +47,6 @@
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="test" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ravit/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2.jar" sourcepath="C:/Users/ravit/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/ravit/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.2/webdrivermanager-5.6.2-javadoc.jar!/"/>
-			<attribute name="maven.groupId" value="io.github.bonigarcia"/>
-			<attribute name="maven.artifactId" value="webdrivermanager"/>
-			<attribute name="maven.version" value="5.6.2"/>
-			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
