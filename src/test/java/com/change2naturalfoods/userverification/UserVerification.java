@@ -2,7 +2,6 @@
 package com.change2naturalfoods.userverification;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.ArrayList;
 
 import org.junit.Assert;
