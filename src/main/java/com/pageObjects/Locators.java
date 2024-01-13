@@ -17,7 +17,11 @@ public class Locators extends BasePage{
 	@FindBy(xpath="//a[@class='nav-link -before']")
 	WebElement linkLocator;
 	
+<<<<<<< HEAD
 	@FindBy(xpath="//input[@id='email']")
+=======
+	@FindBy(xpath="//input[@id='email' and @type='email']")
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 	WebElement emailId;
 
 	@FindBy(xpath="//input[@id='password' and @type='password' and @class='form-control field-validate']")

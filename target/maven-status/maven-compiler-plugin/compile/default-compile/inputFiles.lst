@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\DriverSetup.java
 E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\ExcelUtility.java
 E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\ExtentReportManager.java
 E:\STS\UnregisteredUserVerification\src\main\java\com\pageObjects\BasePage.java
 E:\STS\UnregisteredUserVerification\src\main\java\com\pageObjects\Locators.java
+=======
+E:\STS\UnregisteredUserVerification\src\main\java\com\pageObjects\Locators.java
+E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\ExtentReportManager.java
+E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\DriverSetup.java
+E:\STS\UnregisteredUserVerification\src\main\java\com\change2naturalfoods\utils\ExcelUtility.java
+E:\STS\UnregisteredUserVerification\src\main\java\com\pageObjects\BasePage.java
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07

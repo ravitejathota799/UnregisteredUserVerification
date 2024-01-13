@@ -2,12 +2,21 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-01-12T15:08:50 IST" name="Suite" finished-at="2024-01-12T15:09:11 IST" duration-ms="21361">
     <groups>
     </groups>
     <test started-at="2024-01-12T15:08:50 IST" name="chromeTest" finished-at="2024-01-12T15:09:11 IST" duration-ms="21361">
       <class name="com.change2naturalfoods.userverification.UserVerification">
         <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@449a4f23]" started-at="2024-01-12T15:08:51 IST" name="getWebDriver" finished-at="2024-01-12T15:09:04 IST" duration-ms="13147" status="PASS">
+=======
+  <suite started-at="2023-12-16T23:07:10 IST" name="Suite" finished-at="2023-12-16T23:07:24 IST" duration-ms="14151">
+    <groups>
+    </groups>
+    <test started-at="2023-12-16T23:07:10 IST" name="chromeTest" finished-at="2023-12-16T23:07:24 IST" duration-ms="14151">
+      <class name="com.change2naturalfoods.userverification.UserVerification">
+        <test-method is-config="true" signature="getWebDriver(java.lang.String,java.lang.String)[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@644baf4a]" started-at="2023-12-16T23:07:10 IST" name="getWebDriver" finished-at="2023-12-16T23:07:16 IST" duration-ms="6083" status="PASS">
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
           <params>
             <param index="0">
               <value>
@@ -23,11 +32,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWebDriver -->
+<<<<<<< HEAD
         <test-method signature="verifyError()[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@449a4f23]" started-at="2024-01-12T15:09:04 IST" name="verifyError" finished-at="2024-01-12T15:09:10 IST" duration-ms="6492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyError -->
         <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@449a4f23]" started-at="2024-01-12T15:09:11 IST" name="closeBrowser" finished-at="2024-01-12T15:09:11 IST" duration-ms="700" status="PASS">
+=======
+        <test-method signature="verifyError()[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@644baf4a]" started-at="2023-12-16T23:07:16 IST" name="verifyError" finished-at="2023-12-16T23:07:23 IST" duration-ms="7215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyError -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.change2naturalfoods.userverification.UserVerification@644baf4a]" started-at="2023-12-16T23:07:24 IST" name="closeBrowser" finished-at="2023-12-16T23:07:24 IST" duration-ms="290" status="PASS">
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

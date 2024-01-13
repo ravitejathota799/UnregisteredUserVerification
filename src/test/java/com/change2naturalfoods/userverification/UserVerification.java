@@ -8,11 +8,19 @@ import org.junit.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+<<<<<<< HEAD
 import com.pageObjects.Locators;
 import com.utils.DriverSetup;
 import com.utils.ExcelUtility;
 
 @Listeners(com.utils.ExtentReportManager.class)
+=======
+import com.change2naturalfoods.utils.DriverSetup;
+import com.change2naturalfoods.utils.ExcelUtility;
+import com.pageObjects.Locators;
+
+@Listeners(com.change2naturalfoods.utils.ExtentReportManager.class)
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 public class UserVerification extends DriverSetup {
 
 	String file = System.getProperty("user.dir") + "/src/test/resources/MiniProject.xlsx"; // Getting the file path from the current directory
@@ -33,6 +41,10 @@ public class UserVerification extends DriverSetup {
 			logger.info("*** Entered password ***");
 			l.clickLogin();	 //clicking on the login button
 			logger.info("*** Clicked on login button ***");
+<<<<<<< HEAD
+=======
+			//new driverSetup().captureScreen(driver,"Error");
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 			String s = l.getError();	 //actual result value
 			String expectedResult = "Error: Email or password is incorrect!";	 //expected result value
 			try {
