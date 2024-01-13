@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # replica
 # replica
 =======
@@ -41,4 +41,4 @@ Filling form (in different objects in web page)
 
 
 Added Cucumber Framework
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+
