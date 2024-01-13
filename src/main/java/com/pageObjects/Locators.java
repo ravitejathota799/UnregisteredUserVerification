@@ -5,62 +5,58 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class Locators extends BasePage{
-
-	
+public class Locators extends BasePage {
 
 	public Locators(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
 
-	@FindBy(xpath="//a[@class='nav-link -before']")
+	@FindBy(xpath = "//a[@class='nav-link -before']")
 	WebElement linkLocator;
-	
-<<<<<<< HEAD
-	@FindBy(xpath="//input[@id='email']")
-=======
-	@FindBy(xpath="//input[@id='email' and @type='email']")
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+
+	@FindBy(xpath = "//input[@id='email']")
 	WebElement emailId;
 
-	@FindBy(xpath="//input[@id='password' and @type='password' and @class='form-control field-validate']")
+	@FindBy(xpath = "//input[@id='password' and @type='password' and @class='form-control field-validate']")
 	WebElement password;
 
-	@FindBy(xpath="//button[normalize-space()='Login'][@type='submit']")
+	@FindBy(xpath = "//button[normalize-space()='Login'][@type='submit']")
 	WebElement loginButton;
 
-	@FindBy(xpath="//div[contains(@class,'fade show')]")
+	@FindBy(xpath = "//div[contains(@class,'fade show')]")
 	WebElement error;
 
 	public void setNavigationLink() {
-		String clickLink=Keys.chord(Keys.CONTROL, Keys.ENTER);
+		String clickLink = Keys.chord(Keys.CONTROL, Keys.ENTER);
 		linkLocator.sendKeys(clickLink);
+	}
+	
+	public void navigationLink() {
+		linkLocator.click();
 	}
 
 	public void setEmail(String email) {
 		emailId.sendKeys(email);
 	}
-	
+
 	public void setPassword(String pass) {
 		password.sendKeys(pass);
 	}
-	
+
 	public void clickLogin() {
 		loginButton.click();
 	}
-	
+
 	public String getError() {
 		try {
 			String s = error.getText();
-			s=s.substring(0,s.length()-2);
+			s = s.substring(0, s.length() - 2);
 			System.out.println(s);
-			return(s);
-		}
-		catch(Exception e) {
-			return(e.getMessage());
+			return (s);
+		} catch (Exception e) {
+			return (e.getMessage());
 		}
 	}
-	
 
 }

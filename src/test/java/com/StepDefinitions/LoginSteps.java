@@ -22,8 +22,7 @@ public class LoginSteps {
 	public void the_user_navigates_to_login_page() {
 		// Write code here that turns the phrase above into concrete actions
 		loc = new Locators(BaseClass.getDriver());
-		loc.setNavigationLink();
-
+		loc.navigationLink();
 	}
 
 	@When("user enters email as {string} and password as {string}")

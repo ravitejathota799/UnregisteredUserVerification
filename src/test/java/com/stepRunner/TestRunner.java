@@ -8,9 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-		features = { ".//Features/LoginDDT.feature" }, glue = "com.StepDefinitions", plugin = { "pretty",
-				"html:reports/myreport.html"
-				 }, dryRun = false, monochrome = true)
+		features = { ".//Features/login.feature" }, glue = "com.StepDefinitions", plugin = { "pretty",
+				"html:reports/myreport.html", "rerun:target/rerun.txt",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }, dryRun = false, monochrome = true)
 
 public class TestRunner {
 

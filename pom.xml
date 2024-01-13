@@ -3,32 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Mini</groupId>
-<<<<<<< HEAD
 	<artifactId>UnregisteredUserVerification</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	 <build>
-    <pluginManagement>
-      <plugins>
-	   <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.2.5</version>
-		  <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
-        </configuration>
-        </plugin>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.12.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-=======
-	<artifactId>UnregisteredUserVeriication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<pluginManagement>
@@ -48,50 +23,39 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
 						<compilerVersion>3.10.1</compilerVersion>
+						<source>8</source>
+						<target>8</target>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-<<<<<<< HEAD
-			<version>4.16.1</version>
-=======
 			<version>4.15.0</version>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.6.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-<<<<<<< HEAD
-			<version>7.9.0</version>
-			<scope>test</scope>
-=======
 			<version>7.8.0</version>
-			<scope>compile</scope>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-edge-driver</artifactId>
-<<<<<<< HEAD
-			<version>4.16.1</version>
-=======
 			<version>4.15.0</version>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-firefox-driver</artifactId>
-<<<<<<< HEAD
-			<version>4.16.1</version>
-=======
 			<version>4.15.0</version>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -101,17 +65,14 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-chrome-driver</artifactId>
-<<<<<<< HEAD
-			<version>4.16.1</version>
+			<version>4.15.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-edge-driver</artifactId>
-			<version>4.16.1</version>
-=======
 			<version>4.15.0</version>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -121,49 +82,17 @@
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-<<<<<<< HEAD
 			<version>5.1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>com.relevantcodes</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>2.41.2</version>
-=======
-			<version>5.0.9</version>
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.4</version>
 		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-core</artifactId>
-			<version>2.22.0</version>
-		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
-		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
-			<version>2.22.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.15.1</version>
-		</dependency>
-<<<<<<< HEAD
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>7.15.0</version>
-    <scope>test</scope>
+    <groupId>tech.grasshopper</groupId>
+    <artifactId>extentreports-cucumber7-adapter</artifactId>
+    <version>1.14.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
@@ -171,12 +100,13 @@
     <artifactId>cucumber-java</artifactId>
     <version>7.15.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 <dependency>
-    <groupId>tech.grasshopper</groupId>
-    <artifactId>extentreports-cucumber7-adapter</artifactId>
-    <version>1.14.0</version>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>7.15.0</version>
+    <scope>test</scope>
 </dependency>
-=======
->>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+
 	</dependencies>
 </project>
