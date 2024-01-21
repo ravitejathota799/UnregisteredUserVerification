@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://change2naturalfoods.com"/>
+    <classes>
+      <class name="com.change2naturalfoods.userverification.UserVerification">
+        <methods>
+<<<<<<< HEAD
+          <include name="verifyError"/>
+          <include name="getWebDriver"/>
+          <include name="closeBrowser"/>
+=======
+          <include name="getWebDriver"/>
+          <include name="closeBrowser"/>
+          <include name="verifyError"/>
+>>>>>>> 446e72e4662a23eacdeeb4acb1bbe695d8c2ed07
+        </methods>
+      </class> <!-- com.change2naturalfoods.userverification.UserVerification -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
